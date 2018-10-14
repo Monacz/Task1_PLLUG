@@ -8,6 +8,8 @@ namespace ConsoleApp2
 {
     public class Program
     {
+        //Враховується не тільки те, що шафа може пройти прямо, а й те, що її можна впихнути боком. Я написав класну логіку, яка й потрібна.
+        //Не думав що потрібно було старатись над логікою вперше
          static bool isAbleForRectangle(double r1,double r2,double r3,double rsh1,double rsh2)
             {
                 double lessersize1, lessersize2;
