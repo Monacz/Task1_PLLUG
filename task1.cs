@@ -150,8 +150,10 @@ namespace ConsoleApp2
         }
         if(whatDoor == "sph")
         {
+            Console.WriteLine("Write radius of door");
             double radiusOfDoor=Convert.ToDouble(Console.ReadLine());
-
+            Console.WriteLine("Write what's WearDrop you have, rec,sph,bar"); //rectangle, sphere or barrel
+            whatWearDrop = Console.ReadLine();
             if(whatWearDrop == "rec")
             {
                 double r1,r2,r3;
