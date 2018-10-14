@@ -26,7 +26,7 @@ namespace ConsoleApp2
                 else
                 {
 
-                    double Diagonal = Math.Pow(Math.Pow(rsh1, 2), 0.5);
+                    double Diagonal = Math.Pow(Math.Pow(rsh1, 2)+Math.Pow(rsh2, 2), 0.5);
                     double cosOfanagle = rsh1 / Diagonal;
                     double sin1OfAnagle = cosOfanagle;
                     double cos1ofAnagle = Math.Pow(1 - Math.Pow(sin1OfAnagle, 2), 0.5);
@@ -39,7 +39,8 @@ namespace ConsoleApp2
                     {
                         return true;
                     }
-                    return false; }
+                    return false; 
+                }
             }
 
            static bool isAbleForRectangle(double r1,double r2,double r3, double doorRadius)
