@@ -131,7 +131,7 @@ namespace ConsoleApp2
                 r3 = Convert.ToDouble(Console.ReadLine());
                 printer(isAbleForRectangle(r1,r2,r3,rsh1,rsh2));
             }
-            if(whatWearDrop == "shp")
+            if(whatWearDrop == "sph")
             {
                 Console.WriteLine("enter radius of sphere");
                 double radius=Convert.ToDouble(Console.ReadLine());
@@ -164,7 +164,7 @@ namespace ConsoleApp2
                 r3 = Convert.ToDouble(Console.ReadLine());
                 printer(isAbleForRectangle(r1,r2,r3,radiusOfDoor));
             }
-            if(whatWearDrop == "shp")
+            if(whatWearDrop == "sph")
             {
                 Console.WriteLine("enter radius of sphere");
                 double radius=Convert.ToDouble(Console.ReadLine());
